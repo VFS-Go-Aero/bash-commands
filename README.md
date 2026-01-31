@@ -7,6 +7,7 @@ Set mode - ros2 service call /mavros/set_mode mavros_msgs/srv/SetMode "{base_mod
 Arm - ros2 service call /mavros/cmd/arming mavros_msgs/srv/CommandBool "{value: true}" 
 
 Temporary sensor publish - 
+
 ros2 topic pub /mavros/obstacle/scan sensor_msgs/msg/LaserScan "{
   header: { frame_id: 'laser' },
   angle_min: 0.0,
