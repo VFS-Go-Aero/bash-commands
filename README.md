@@ -22,3 +22,12 @@ ros2 topic pub /mavros/obstacle/scan sensor_msgs/msg/LaserScan "{
 }"
 
 Recieve sensor data - ros2 topic echo /mavros/obstacle/scan
+
+-----------------------------------------
+
+Mavros, Mavros-extras and Mavros-msgs
+
+sudo apt install ros-humble-mavros-extras ros-humble-mavros-msgs
+source /opt/ros/humble/setup.bash
+
+-----------------------------------------
