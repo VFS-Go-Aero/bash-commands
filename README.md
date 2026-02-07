@@ -30,4 +30,6 @@ Mavros, Mavros-extras and Mavros-msgs
 sudo apt install ros-humble-mavros-extras ros-humble-mavros-msgs
 source /opt/ros/humble/setup.bash
 
+ros2 topic echo /mavros/obstacle/send mavros_msgs/msg/ObstacleDistance3D
+
 -----------------------------------------
